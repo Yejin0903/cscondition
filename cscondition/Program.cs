@@ -10,7 +10,7 @@ namespace cscondition
     {
         static void Main(string[] args)
         {
-            Console.Write("숫자 입력 : ");
+            Console.Write("숫자를 입력하세요 : ");
             int input = int.Parse(Console.ReadLine());
 
             if (input % 2 == 0)
