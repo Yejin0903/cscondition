@@ -23,6 +23,7 @@ namespace cscondition
                 Console.WriteLine("홀수 입니다!");
             }
             */
+            /*
             switch (input % 2)
             {
                 case 0:
@@ -32,6 +33,11 @@ namespace cscondition
                     Console.WriteLine("홀수 입니다!");
                     break;
             }
+            */
+            
+            //삼항 연산자
+            Console.WriteLine(input % 2==0 ? "짝수 입니다" : " 홀수 입니다.");
+            Console.WriteLine(input > 0 ? "자연수 입니다" : "자연수가 아닙니다.");
 
             //현재 시간 구하기
             Console.WriteLine(DateTime.Now.Year);
